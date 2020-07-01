@@ -1,0 +1,151 @@
+@charset "UTF-8";
+body, html {
+  background-color: #EBECF0; }
+
+body, p, input, select, textarea, button {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -0.2px;
+  font-size: 16px; }
+
+.container {
+  display: flex; }
+
+div, p {
+  color: #BABECC;
+  text-shadow: 1px 1px 1px #FFF; }
+
+form {
+  padding: 16px;
+  width: 320px;
+  margin: 0 auto; }
+
+.box-title {
+  /* Basic styling and alignment */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  /* Basic styling and alignment */
+  /* For Neumorphism Effect */
+  background-color: #E0E5EC;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+  /* For Neumorphism Effect */
+  text-align: center; }
+
+.segment {
+  padding: 32px 0;
+  text-align: center; }
+
+button, input {
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  border-radius: 320px;
+  padding: 16px;
+  background-color: #EBECF0;
+  text-shadow: 1px 1px 0 #FFF; }
+
+label {
+  display: block;
+  margin-bottom: 24px;
+  width: 100%; }
+
+input {
+  margin-right: 8px;
+  box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  appearance: none;
+  -webkit-appearance: none; }
+  input:focus {
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF; }
+
+.login-wrap {
+  display: flex; }
+  .login-wrap .left-btn {
+    margin-right: 30px; }
+
+button {
+  color: #61677C;
+  font-weight: bold;
+  box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 600; }
+  button:hover {
+    box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC; }
+  button:active {
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF; }
+  button .icon {
+    margin-right: 8px; }
+  button.unit {
+    border-radius: 8px;
+    line-height: 0;
+    width: 48px;
+    height: 48px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px;
+    font-size: 19.2px; }
+    button.unit:active {
+      box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF; }
+    button.unit .icon {
+      margin-right: 0; }
+  button.unit-dent {
+    border-radius: 8px;
+    line-height: 0;
+    width: 48px;
+    height: 48px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px;
+    font-size: 19.2px;
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF; }
+    button.unit-dent:active {
+      box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC; }
+    button.unit-dent .icon {
+      margin-right: 0; }
+  button.red {
+    display: block;
+    width: 100%;
+    color: #AE1100; }
+  button.white {
+    display: block;
+    width: 100%;
+    color: #FFF; }
+
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; }
+  .input-group label {
+    margin: 0;
+    flex: 1; }
+
+.right-btn {
+  display: inline-block;
+  background-color: #c11919;
+  /*背景色*/
+  color: #FFF;
+  /*文字色*/
+  font-size: 1em;
+  /*文字サイズ*/
+  line-height: 1;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  /*字間*/
+  padding: 0.2em 1em;
+  /*ボタン内の余白*/
+  border-radius: 3px;
+  /*角の丸み*/
+  cursor: pointer;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  /*影*/
+  -webkit-tap-highlight-color: transparent;
+  transition: .3s ease-out;
+  /*変化を緩やかに*/ }
+
+/*# sourceMappingURL=style.css.map */

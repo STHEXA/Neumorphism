@@ -1,0 +1,184 @@
+$ruler: 16px;
+$color-red: #AE1100;
+$color-bg: #EBECF0;
+$color-shadow: #BABECC;
+$color-white: #FFF;
+
+body, html {
+  background-color:$color-bg;
+}
+
+body, p, input, select, textarea, button {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.2px;
+    font-size: $ruler;
+}
+
+.container {
+  display: flex;
+}
+div, p {
+  color: $color-shadow;
+  text-shadow: 1px 1px 1px $color-white;
+}
+
+
+form {
+  padding: $ruler;
+  width: $ruler*20;
+  margin: 0 auto;
+}
+.box-title {
+  /* Basic styling and alignment */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:100px;
+  border-radius:4px;
+    /* Basic styling and alignment */
+  /* For Neumorphism Effect */
+  background-color:#E0E5EC;
+  box-shadow: 9px 9px 16px rgba(163,177,198,0.6), -9px -9px 16px rgba(255,255,255, 0.5);
+    /* For Neumorphism Effect */
+    text-align: center;
+}
+.segment {
+  padding: $ruler*2 0;
+  text-align: center;
+}
+
+button, input {
+  border: 0;
+  outline: 0;
+  font-size: $ruler;
+  border-radius: $ruler*20;
+  padding: $ruler;
+  background-color:$color-bg;
+  text-shadow: 1px 1px 0 $color-white;
+}
+
+label {
+  display: block;
+  margin-bottom: $ruler*1.5;
+  width: 100%;
+}
+
+input {
+  margin-right: $ruler/2;
+  box-shadow:  inset 2px 2px 5px $color-shadow, inset -5px -5px 10px $color-white;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  appearance: none;
+  -webkit-appearance: none;
+
+  &:focus {
+    box-shadow:  inset 1px 1px 2px $color-shadow, inset -1px -1px 2px $color-white;
+  }
+}
+
+.login-wrap {
+  display: flex;
+  .left-btn {
+    margin-right: 30px;
+  }
+}
+
+button {
+  color:#61677C;
+  font-weight: bold;
+  box-shadow: -5px -5px 20px $color-white,  5px 5px 20px $color-shadow;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 600;
+  
+  &:hover {
+    box-shadow: -2px -2px 5px $color-white, 2px 2px 5px $color-shadow;
+  }
+  
+  &:active {
+    box-shadow: inset 1px 1px 2px $color-shadow, inset -1px -1px 2px $color-white;
+  }
+  
+  .icon {
+    margin-right: $ruler/2;
+  }
+  
+  &.unit {
+    border-radius: $ruler/2;
+    line-height: 0;
+    width: $ruler*3;
+    height: $ruler*3;
+    display:inline-flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0 $ruler/2;
+    font-size: $ruler*1.2;
+    &:active {
+      box-shadow: inset 1px 1px 2px $color-shadow, inset -1px -1px 2px $color-white;
+    }
+    
+    .icon {
+      margin-right: 0; 
+    }
+  }
+
+  &.unit-dent {
+    border-radius: $ruler/2;
+    line-height: 0;
+    width: $ruler*3;
+    height: $ruler*3;
+    display:inline-flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0 $ruler/2;
+    font-size: $ruler*1.2;
+    box-shadow: inset 1px 1px 2px $color-shadow, inset -1px -1px 2px $color-white;
+    &:active {
+      box-shadow: -5px -5px 20px $color-white,  5px 5px 20px $color-shadow;
+    }
+    
+    .icon {
+      margin-right: 0; 
+    }
+  }
+  
+  &.red {
+    display: block;
+    width: 100%;
+    color:$color-red;
+  }
+  &.white {
+    display: block;
+    width: 100%;
+    color:$color-white;
+  }
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  
+  label {
+    margin: 0;
+    flex: 1;
+  }
+}
+.right-btn {
+  display: inline-block;
+  background-color: #c11919;/*背景色*/
+  color: #FFF;/*文字色*/
+  font-size: 1em;/*文字サイズ*/
+  line-height: 1;
+  text-decoration: none;
+  letter-spacing: 0.05em;/*字間*/
+  padding: 0.2em 1em;/*ボタン内の余白*/
+  border-radius: 3px;/*角の丸み*/
+    cursor: pointer;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);/*影*/
+  -webkit-tap-highlight-color: transparent;
+  transition: .3s ease-out;/*変化を緩やかに*/
+}
+
+
+
