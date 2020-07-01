@@ -99,10 +99,6 @@ button {
     box-shadow: inset 1px 1px 2px $color-shadow, inset -1px -1px 2px $color-white;
   }
   
-  .icon {
-    margin-right: $ruler/2;
-  }
-  
   &.unit {
     border-radius: $ruler/2;
     line-height: 0;
@@ -115,10 +111,6 @@ button {
     font-size: $ruler*1.2;
     &:active {
       box-shadow: inset 1px 1px 2px $color-shadow, inset -1px -1px 2px $color-white;
-    }
-    
-    .icon {
-      margin-right: 0; 
     }
   }
 
@@ -135,10 +127,6 @@ button {
     box-shadow: inset 1px 1px 2px $color-shadow, inset -1px -1px 2px $color-white;
     &:active {
       box-shadow: -5px -5px 20px $color-white,  5px 5px 20px $color-shadow;
-    }
-    
-    .icon {
-      margin-right: 0; 
     }
   }
   
