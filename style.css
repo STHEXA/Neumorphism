@@ -30,7 +30,8 @@ form {
   background-color: #E0E5EC;
   box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
   /* For Neumorphism Effect */
-  text-align: center; }
+  text-align: center;
+  background-color: #EBECF0; }
 
 .segment {
   padding: 32px 0;
